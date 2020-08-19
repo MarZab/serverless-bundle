@@ -192,7 +192,7 @@ function loaders() {
 function plugins() {
   const plugins = [];
 
-  if (ENABLE_TYPESCRIPT) {
+  if (false) {
     const forkTsCheckerWebpackOptions = { tsconfig: tsConfigPath };
 
     if (ENABLE_LINTING) {
