@@ -17,6 +17,7 @@ module.exports = {
     ignorePackages: [],
     packagerOptions: {},
     serializedCompile: false,
+    tsForkTsChecker: true,
     tsConfig: "tsconfig.json",
     // Exclude aws-sdk since it's available in the Lambda runtime
     forceExclude: ["aws-sdk"],
